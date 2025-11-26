@@ -1,0 +1,63 @@
+.encabezado {
+  background-color: rgb(4, 129, 109);
+  color: #ffffff;
+}
+
+.titulo {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.parrafo {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contenido {
+  background-color: #ffffff;
+}
+
+.menu-vertical {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-vertical li {
+  margin-bottom: 18px;
+}
+
+.menu-vertical a {
+  display: block;
+  background-color: rgb(4, 129, 109);
+  padding: 12px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  border: 2px solid #0a5032;
+}
+
+.menu-vertical a:hover {
+  background-color: #0a5032;
+}
+
+.titulo-contacto {
+  color: rgb(4, 129, 109);
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Playfair Display";
+  margin-left: 100px;
+}
+
+.contacto-texto {
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+.sobre-footer {
+  background-color: rgb(4, 129, 109);
+  color: #ffffff;
+  font-size: 16px;
+}

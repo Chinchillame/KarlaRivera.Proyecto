@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.columna-reserva-1 {
+  background-color: #ffffff;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-reserva {
+  font-family: "Playfair Display", serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: rgb(10, 80, 50);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.parrafo-reserva {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.btn-reserva {
+  background-color: rgb(4, 129, 109);
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.btn-reserva:hover {
+  background-color: #0a5032;
+  border-color: #0a5032;
+  color: white;
+}
+
+.btn-reserva-cotizar {
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.btn-reserva-cotizar:hover {
+  background-color: #0a5032;
+  border-color: #0a5032;
+  color: white;
+}
+
+.btn-reserva-der {
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.btn-reserva-der:hover {
+  background-color: #0a5032;
+  border-color: #0a5032;
+  color: white;
+}
+
+.columna-reserva-2 {
+  background-color: rgb(4, 129, 109);
+  min-height: 100vh;
+}
+
+.reserva-img {
+  max-height: 300px;
+  object-fit: cover;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}

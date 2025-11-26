@@ -1,0 +1,87 @@
+.menu-principal {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+  padding: 10px 0;
+  z-index: 100;
+  border-radius: 12px;
+}
+
+.boton-menu {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 8px 16px;
+  margin: 0 6px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  transition: transform 0.22s ease, background-color 0.22s ease,
+    color 0.22s ease;
+  display: inline-block;
+}
+
+.boton-menu:hover {
+  color: #0b7068;
+  background-color: rgba(255, 255, 255, 1);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.imagen-fondo {
+  background-image: url("../img/f70c44ad5d7b9a26c02b36ce07dac5b029febd385e3fc2f4f2cd022c (1).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.titulo-principal {
+  color: rgb(247, 238, 226);
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  margin-top: 180px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  color: antiquewhite;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+  margin-top: 10%;
+}
+
+.parrafo-hero {
+  color: rgb(255, 243, 230);
+  font-size: 20px;
+  line-height: 1.7;
+  margin-top: 10px;
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+  background-color: rgba(6, 52, 65, 0.26);
+  backdrop-filter: blur(6px);
+  display: inline-block;
+  padding: 5px;
+}
+
+/*
+.columnas3 {
+    background-color: rgba(255, 255, 255, 0.55);   
+    padding: 25px;                                
+    border-radius: 14px;                          
+    margin: 30px auto;                            
+    backdrop-filter: blur(6px);                   
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);    
+    max-width: 1100px;
+}*/
