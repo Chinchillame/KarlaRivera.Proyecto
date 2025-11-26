@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ======================================
+        ENLACE CSS BOOSTRAP 
+    ======================================= -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- ======================================
+        ENLACE JS BOOSTRAP 
+    ======================================= -->
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"
+    />
+
+    <!-- ======================================
+        ENLACE STYLE CSS 
+    ======================================= -->
+    <link rel="stylesheet" href="css/stylecontactos.css" />
+  </head>
+  <body class="fondo-contacto">
+    <section class="imagen-fondo-contacto">
+      <div class="container">
+        <div class="container py-5">
+          <div class="row align-items-center">
+            <!-- =======================
+            COL#1 TEXTOS
+        ======================== -->
+            <div class="col-md-6 px-4 columna-contacto-1">
+              <h1 class="titulo-contacto">
+                Planifiquemos juntos tu próxima aventura
+              </h1>
+              <p class="parrafo-contacto">
+                Siente la adrenalina de la selva, disfruta las tradiciones
+                locales y conecta con la naturaleza como nunca antes. Costa Rica
+                no es solo un destino, es una forma de vida.
+              </p>
+
+              <button class="btn btn-contacto mt-3">Escríbenos ahora</button>
+            </div>
+
+            <!-- =======================
+            COL#2 FORMULARIO CON BOOSTRAP
+        ======================== -->
+            <div class="col-md-6 px-4 columna-contacto-2">
+              <!-- Nombre -->
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreInput"
+                  placeholder="Nombre"
+                />
+                <label for="nombreInput">Nombre</label>
+              </div>
+
+              <!-- Apellido -->
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="apellidoInput"
+                  placeholder="Apellido"
+                />
+                <label for="apellidoInput">Apellido</label>
+              </div>
+
+              <!-- Correo -->
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="correoInput"
+                  placeholder="correo@ejemplo.com"
+                />
+                <label for="correoInput">Correo electrónico</label>
+              </div>
+
+              <!-- Teléfono -->
+              <div class="form-floating mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="telefonoInput"
+                  placeholder="0000-0000"
+                />
+                <label for="telefonoInput">Número de teléfono</label>
+              </div>
+
+              <button class="btn-contacto w-100 mt-3">
+                Enviar mensaje
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
